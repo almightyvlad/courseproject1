@@ -1,0 +1,55 @@
+.aboutUsContainer {
+    width: 920px;
+    margin: 40px 0;
+}
+
+.aboutUsTitle {
+    font-size: 42px;
+    font-weight: 600;
+}
+
+.aboutUsDescription {
+    font-size: 16px;
+}
+
+.aboutUsDescription p {
+    margin: 30px 0;
+}
+
+@media screen and (max-width: 768px) {
+    .aboutUsContainer {
+        width: 320px;
+        margin: 20px 0;
+    }
+
+    .aboutUsTitle {
+        font-size: 28px;
+    }
+
+    .aboutUsDescription {
+        font-size: 12px;
+    }
+
+}
+
+@media screen and (min-width: 768px) and (max-width: 998px) {
+    .aboutUsContainer {
+        width: 670px;
+        margin: 40px 0;
+    }
+
+    .aboutUsTitle {
+        font-size: 38px;
+        font-weight: 600;
+    }
+
+    .aboutUsDescription {
+        font-size: 14px;
+    }
+
+}
+
+
+@media screen and (min-width: 998px) {
+   
+}

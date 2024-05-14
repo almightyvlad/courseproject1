@@ -1,0 +1,555 @@
+* {
+    background: #121417;
+    color: #fff;
+    margin: 0px;
+    padding: 0px;
+}
+
+.filtered {
+    filter: blur(2px);
+    pointer-events: none;
+}
+
+.formContainer {
+    display: none;
+    border: 1px solid #fff;
+    position: fixed;
+    padding: 15px;
+    border-radius: 12px;
+    width: 300px;
+    height: 350px;
+    overflow: auto;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 100;
+}
+
+
+.formElement {
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+}
+
+.formElement input {
+    width: 250px;
+    margin-bottom: 15px;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.contactsContainer {
+    display: none;
+    border: 1px solid #fff;
+    flex-direction: column;
+    position: fixed;
+    border-radius: 12px;
+    justify-content: space-between;
+    padding: 20px;
+    width: 300px;
+    height: 280px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 100;
+}
+
+.contactsTitle {
+    font-size: 24px;
+    text-align: center;
+}
+
+.contactsElement {
+    border: 0.5px solid #fff;
+    margin: 10px;
+    padding: 10px;
+
+}
+
+.errorMessage {
+    color: #ff3e3e;
+}
+
+.submitButtonContainer input {
+    width: 100px;
+}
+
+.formElement input:focus {
+    outline: none;
+    border-color: #4CAF50;
+
+}
+
+.crossForm, .crossContacts {
+    font-size: 26px;
+    cursor: pointer;
+    position: absolute;
+    top: 5px;
+    right: 10px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.models {
+    display: none;
+    position: fixed;
+    border: 1px solid #fff;
+    width: 240px;
+    height: 300px;
+    background: #000;
+    z-index: 100;
+    margin: 0 0 0 83%;
+}
+
+.models.show {
+    display: block;
+}
+
+.dropDownMenu {
+    display: none;
+    position: fixed;
+    border: 1px solid #fff;
+    width: 240px;
+    height: 300px;
+    background: #000;
+    z-index: 100;
+    margin: 0 0 0 65%;
+}
+
+.dropDownMenu.show {
+    display: block;
+}
+
+.dropDownMenuElement {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid #fff;
+    height: 16.3%;
+    transition: all 0.2s ease-in-out;
+    opacity: 1;
+}
+
+.dropDownMenuElement:hover {
+    opacity: 0.5;
+}
+
+.modelsElement {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid #fff;
+    height: 33%;
+    transition: all 0.2s ease-in-out;
+    opacity: 1;
+}
+
+.modelsElement:hover {
+    opacity: 0.5;
+}
+
+.headerLink:hover {
+    opacity: 0.7;
+}
+
+.activeLink {
+    opacity: 0.5;
+}
+
+header {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+}
+
+
+
+nav {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 65px;
+    border-bottom: 1px solid #fff;
+}
+
+.logoContainer {
+    display: flex;
+    position: absolute;
+    font-size: 18px;
+    padding: 0 0 0 40px;
+    left: 0;
+}
+
+.logo {
+    width: 16px;
+    height: 16px;
+    padding: 0 0 5px;
+}
+
+.logoName {
+    font-weight: bold;
+    margin-left: 16px;
+}
+
+.menuContainer {
+    display: flex;
+    align-items: center;
+}
+
+.pagesContainer {
+    display: flex;
+}
+
+.page {
+    font-size: 14px;
+    margin: 0 52px;
+}
+
+.page a {
+    display: flex;
+    color: #fff;
+    text-decoration: none;
+    transition: all 0.2s ease-in-out;
+}
+
+.page a:hover {
+    opacity: 0.5;
+}
+
+.buttonsContainer {
+    display: flex;
+    align-items: center;
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    background: #1466b8;
+    border-radius: 40px;
+    transition: all 0.2s ease-in-out;
+    opacity: 1;
+}
+
+.button:hover {
+    opacity: 0.5;
+}
+
+.button svg {
+    width: 16.27px;
+    height: 15.64px;
+    background: #1466b8;
+}
+
+.personButton {
+    margin: 0 10px;
+}
+
+.loginUsername {
+    font-size: 14px;
+    margin: 0 30px 0 0;
+}
+
+.contactButton {
+    margin: 0 40px 0 0;
+}
+
+main {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    font-family: 'Spline Sans', sans-serif;
+    margin: 0 auto;
+}
+
+.mainImageInfo {
+    display: flex;
+    flex-direction: column;
+    background: none;
+    margin: 16px 0;
+}
+
+.mainImageContainer {
+    width: 960px;
+    height: 512px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 12px;
+    margin: 36px 0;
+}
+
+.mainImageName {
+    text-align: center;
+    font-weight: bold;
+    font-size: 48px;
+    background: none;
+}
+
+
+footer {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    font-family: 'Spline Sans', sans-serif;
+    margin: 80px 0 0 0;
+}
+
+.footerTags {
+    width: 920px;
+    height: 140px;
+}
+
+.footerRow {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 0 0 -30px;
+}
+
+.footerRow a {
+    width: 90px;
+    height: 24px;
+}
+
+.footerTag {
+    width: 160px;
+    height: 24px;
+    font-size: 16px;
+    font-weight: 200;
+    color: #94adc7;
+    margin: 0 29px 0 0;
+    transition: all 0.2s ease-in-out;
+}
+
+.footerTag:hover {
+    opacity: 0.5;
+}
+
+.footerLogo {
+    display: flex;
+    justify-content: center;
+    color: #94adc7;
+    font-weight: 500;
+    margin: 40px 0 0 0;
+}
+
+.hambugerMenuContainer {
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30px;
+    height: 22px;
+    border-radius: 4px;
+    margin: 0 40px;
+}
+
+.hambugerMenuContainer div {
+    background: #fff;
+    width: 100%;
+    height: 4px;
+    border-radius: 4px;
+}
+
+.dropDownMenuModel {
+    display: none;
+}
+
+.dropDownMenuModel.show {
+    display: flex;
+}
+
+.dropDownMenu.adaptiv {
+    width: 160px;
+    height: 300px;
+}
+
+.dropDownMenuElement.adaptiv {
+    height: 10.8%;
+}
+
+.loginUsernameMobile {
+    display: none;
+}
+
+
+@media screen and (max-width: 768px) {
+    
+    .hambugerMenuContainer {
+        width: 20px;
+        height: 14px;
+        border-radius: 4px;
+        margin: 0 20px;
+    }
+
+    .hambugerMenuContainer div {
+
+        height: 2px;
+        border-radius: 4px;
+    }
+
+    .logoContainer {
+
+        font-size: 14px;
+        padding: 0 0 0 20px;
+    }
+
+    .logo {
+        width: 16px;
+        height: 16px;
+    }
+
+    .logoName {
+
+        margin-left: 12px;
+    }
+    
+    .hambugerMenuContainer {
+        display: flex;
+    }
+    .logoContainer {
+        margin: 0 auto;
+    }
+    .menuContainer {
+        display: none;
+    }
+
+    .mainImageContainer {
+        width: 342px;
+        height: 180px;
+        border-radius: 12px;
+        margin: 36px 0;
+    }
+    
+    .mainImageName {
+        font-size: 20px;
+    }
+
+    footer {
+        margin: 10px 0 0 0;
+    }
+
+    .footerTags {
+        width: 342px;
+        height: 140px;
+    }
+
+    .footerRow {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 0 0 0 5px;
+    }
+
+    .footerTag {
+        width: 100px;
+        height: 24px;
+        font-size: 12px;
+        margin: 0 29px 0 0;
+    }
+
+    .footerLogo {
+        font-size: 14px;
+    }
+
+    .carItems {
+        display: none;
+    }
+
+    .models.show {
+        display: none;
+    }
+
+    .dropDownMenu {
+        width: 160px;
+        height: 200px;
+        margin: 0 0 0 56%;
+    }
+
+    .loginUsernameMobile {
+        display: flex;
+        font-size: 12px;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 998px) {
+
+    .hambugerMenuContainer {
+        display: flex;
+    }
+
+    .logoContainer {
+        margin: 0 auto;
+    }
+
+    .menuContainer {
+        display: none;
+    }
+
+    .mainImageContainer {
+        width: 670px;
+        height: 365px;
+        border-radius: 12px;
+        margin: 36px 0;
+    }
+
+    .mainImageName {
+        font-size: 36px;
+    }
+
+    footer {
+        margin: 50px 0 0 0;
+    }
+
+    .footerTags {
+        width: 500px;
+        height: 140px;
+    }
+
+    .footerRow {
+        display: flex;
+        justify-content: space-between;
+        margin: 0 0 0 -15px;
+    }
+
+    .footerTag {
+        width: 160px;
+        height: 24px;
+        font-size: 14px;
+        font-weight: 200;
+        color: #94adc7;
+        margin: 0 25px 0 0;
+    }
+
+    .footerLogo {
+        margin: 60px 0 0 0;
+    }
+
+    .models.show {
+        display: none;
+    }
+
+    .dropDownMenu {
+        width: 160px;
+        height: 200px;
+        margin: 0 0 0 78%;
+    }
+    .loginUsernameMobile {
+        display: flex;
+        font-size: 14px;
+    }
+}
+
+@media screen and (min-width: 998px) {
+    .dropDownMenu.show {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 998px) and (max-width: 1400px) {
+    .models {
+        margin: 0 0 0 74%;
+    }
+}

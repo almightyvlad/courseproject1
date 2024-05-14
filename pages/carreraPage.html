@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+    <meta charset='UTF-8'>
+    <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+        
+        <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <link rel='preconnect' href='https://fonts.googleapis.com'>
+    <link rel='preconnect' href='https://fonts.gstatic.com' crossorigin>
+    <link
+        href='https://fonts.googleapis.com/css2?family=Nunito:wght@600&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap'
+        rel='stylesheet'>
+    <link rel='preconnect' href='https://fonts.googleapis.com'>
+    <link rel='preconnect' href='https://fonts.gstatic.com' crossorigin>
+    <link href='https://fonts.googleapis.com/css2?family=Spline+Sans:wght@300..700&display=swap' rel='stylesheet'>
+    <link rel='stylesheet' href='../style/style.css'>
+
+    <link rel='stylesheet' href='../style/carreraPage.css'>
+    <title>Carrera</title> 
+</head>
+<body>
+    <div class='container'>
+        <header class='forBlur'>
+            <nav>
+                <div class='logoContainer'>
+                    <div class='logo'>
+                        <svg viewBox='0 0 16 17' fill='none' xmlns='http://www.w3.org/2000/svg'>
+                            <path fill-rule='evenodd' clip-rule='evenodd'
+                                d='M13.1583 7.7087C13.4526 7.6454 13.5621 7.68626 13.586 7.69776C13.5958 7.7183 13.6182 7.78563 13.6027 7.9445C13.5802 8.17513 13.4834 8.5015 13.2857 8.91C12.8933 9.721 12.1695 10.721 11.1952 11.6952C10.221 12.6695 9.22103 13.3933 8.40999 13.7857C8.00149 13.9834 7.67513 14.0802 7.44449 14.1027C7.28566 14.1182 7.21833 14.0958 7.19776 14.086C7.18626 14.0621 7.14539 13.9526 7.20869 13.6583C7.28536 13.3018 7.48959 12.8219 7.83456 12.2605C8.25246 11.5805 8.84986 10.8248 9.58733 10.0873C10.3248 9.34986 11.0805 8.75243 11.7605 8.33453C12.3219 7.9896 12.8018 7.78536 13.1583 7.7087ZM1.47059 10.2467L6.25319 15.0293C6.62706 15.4032 7.13419 15.4726 7.57386 15.4297C8.01946 15.3863 8.50489 15.221 8.99073 14.9859C9.96836 14.5129 11.0872 13.6889 12.138 12.638C13.1889 11.5872 14.0129 10.4684 14.4859 9.49073C14.721 9.0049 14.8863 8.51946 14.9297 8.07386C14.9726 7.6342 14.9032 7.12706 14.5293 6.7532L9.74673 1.97059C9.28419 1.50806 8.62546 1.50854 8.09533 1.62255C7.53599 1.74284 6.91109 2.02803 6.27983 2.41597C5.49923 2.89568 4.66266 3.56114 3.86189 4.3619C3.06114 5.16263 2.39568 5.99923 1.91597 6.77983C1.52803 7.4111 1.24284 8.036 1.12255 8.59533C1.00854 9.12546 1.00806 9.7842 1.47059 10.2467Z'
+                                fill='white' />
+                        </svg>
+    
+                    </div>
+    
+                    <div class='logoName'>TheCarVault</div>
+                </div>
+    
+                <div class='menuContainer'>
+                    <div class='pagesContainer'>
+                        <div class='page'>
+                            <a href='./mainPage.html' class='headerLink'>
+                                Домой
+                            </a>
+                        </div>
+                        <div class='page modelsLink'>
+                            <div class='headerLink'>
+                                Модели
+                            </div>
+                        </div>
+                        <div class='page'>
+                            <a href='./blogPage.html' class='headerLink'>
+                                Блог
+                            </a>
+                        </div>
+                        <div class='page'>
+                            <a href='./aboutUs.html' class='headerLink'>
+                                О нас
+                            </a>
+                        </div>
+                    </div>
+    
+                    <div class='buttonsContainer'>
+    
+                        <div class='loginUsername'></div>
+    
+    
+                        <div class='button personButton'>
+                            <svg viewBox='0 0 18 17' fill='none' xmlns='http://www.w3.org/2000/svg'>
+                                <path fill-rule='evenodd' clip-rule='evenodd'
+                                    d='M17.0407 15.0626C15.8508 13.0055 14.0172 11.5305 11.8774 10.8313C14.053 9.53614 15.0952 6.94703 14.4235 4.5058C13.7519 2.06456 11.532 0.372925 9.00003 0.372925C6.46809 0.372925 4.24819 2.06456 3.57654 4.5058C2.9049 6.94703 3.94707 9.53614 6.12268 10.8313C3.98284 11.5297 2.14925 13.0047 0.959404 15.0626C0.840615 15.2562 0.836301 15.4991 0.948138 15.6969C1.05997 15.8947 1.27034 16.0162 1.49755 16.0143C1.72476 16.0123 1.93301 15.8872 2.04143 15.6876C3.51331 13.1438 6.11487 11.6251 9.00003 11.6251C11.8852 11.6251 14.4867 13.1438 15.9586 15.6876C16.067 15.8872 16.2753 16.0123 16.5025 16.0143C16.7297 16.0162 16.9401 15.8947 17.0519 15.6969C17.1638 15.4991 17.1594 15.2562 17.0407 15.0626ZM4.62503 6.00005C4.62503 3.5838 6.58378 1.62505 9.00003 1.62505C11.4163 1.62505 13.375 3.5838 13.375 6.00005C13.375 8.4163 11.4163 10.3751 9.00003 10.3751C6.58485 10.3725 4.62761 8.41522 4.62503 6.00005Z'
+                                    fill='#1C170D' />
+                            </svg>
+    
+                        </div>
+    
+    
+                        <div class='button contactButton'>
+                            <svg viewBox='0 0 17 16' fill='none' xmlns='http://www.w3.org/2000/svg'>
+                                <path fill-rule='evenodd' clip-rule='evenodd'
+                                    d='M15.3727 10.8797L11.6922 9.23047L11.682 9.22578C11.2939 9.05976 10.8481 9.10089 10.4969 9.33516C10.4765 9.3486 10.457 9.36321 10.4383 9.37891L8.53672 11C7.33203 10.4148 6.08828 9.18047 5.50313 7.99141L7.12656 6.06094C7.14219 6.04141 7.15703 6.02187 7.17109 6.00078C7.40027 5.65059 7.43898 5.20894 7.27422 4.82422V4.81484L5.62031 1.12812C5.40008 0.61992 4.87167 0.317244 4.32188 0.384375C2.13195 0.672545 0.496041 2.54119 0.5 4.75C0.5 10.9531 5.54688 16 11.75 16C13.9588 16.004 15.8275 14.3681 16.1156 12.1781C16.1829 11.6285 15.8806 11.1002 15.3727 10.8797ZM11.75 14.75C6.22965 14.744 1.75603 10.2703 1.75 4.75C1.74392 3.17182 2.90996 1.83424 4.47422 1.625C4.47391 1.62812 4.47391 1.63126 4.47422 1.63438L6.11484 5.30625L4.5 7.23906C4.48361 7.25792 4.46872 7.27804 4.45547 7.29922C4.21634 7.66615 4.18671 8.13147 4.37734 8.52578C5.08516 9.97344 6.54375 11.4211 8.00703 12.1281C8.40429 12.317 8.87158 12.2832 9.2375 12.0391C9.25756 12.0256 9.27686 12.0109 9.29531 11.9953L11.1945 10.375L14.8664 12.0195C14.8664 12.0195 14.8727 12.0195 14.875 12.0195C14.6683 13.5861 13.3301 14.7553 11.75 14.75Z'
+                                    fill='#1C170D' />
+                            </svg>
+    
+                        </div>
+                    </div>
+                </div>
+
+                <div class='loginUsernameMobile'></div>
+    
+                <div class='hambugerMenuContainer'>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                </div>
+    
+            </nav>
+    
+            <div class='dropDownMenu'>
+    
+                <a href='./mainPage.html' class='dropDownMenuElement'>
+                    <div>Домой</div>
+                </a>
+    
+                <div class='dropDownMenuElement dropDownModel'>
+                    Модели
+                </div>
+    
+    
+                <a href='./carreraPage.html' class='dropDownMenuElement dropDownMenuModel'>
+                    <div>Porsche 911</div>
+                </a>
+                <a href='./cayennePage.html' class='dropDownMenuElement dropDownMenuModel'>
+                    <div>Porsche Cayenne</div>
+                </a>
+                <a href='./panameraPage.html' class='dropDownMenuElement dropDownMenuModel'>
+                    <div>Porsche Panamera</div>
+                </a>
+    
+    
+                <div class='dropDownMenuElement authMenu'>
+                    Авторизация
+                </div>
+                <div class='dropDownMenuElement'>
+                    Контакты
+                </div>
+                <a class='dropDownMenuElement'>
+                    <div href='./blogPage.html'>Блог</div>
+                </a>
+                <a class='dropDownMenuElement'>
+                    <div href='./aboutUs.html'>О нас</div>
+                </a>
+            </div>
+    
+    
+    
+            <div class='models modelsAdd'>
+                <a href='./carreraPage.html' class='modelsElement'>
+                    <div>Porsche 911</div>
+                </a>
+                <a href='./cayennePage.html' class='modelsElement'>
+                    <div>Porsche Cayenne</div>
+                </a>
+                <a href='./panameraPage.html' class='modelsElement'>
+                    <div>Porsche Panamera</div>
+                </a>
+            </div>
+        </header>
+    
+        <main>
+            <div>
+                <div class='contactsContainer'>
+                    <div class='crossContacts'>&times;</div>
+                    <div class='contactsTitle'>Связаться с нами</div>
+                    <div class='contactsElement'>
+                        Пр. Независимости, 198, кабинет 4, 220056 Минск
+                    </div>
+                    <div class='contactsElement'>
+                        +375 44-797-99-11
+                    </div>
+                    <div class='contactsElement'>
+                        info@thecarvault.by
+                    </div>
+                </div>
+    
+                <div class='formContainer'>
+                    <form id='myForm'>
+                        <div class='crossForm'>&times;</div>
+                        <div class='emailContainer formElement'>
+                            <label for='email'>Email:</label>
+                            <input id='email' name='email'>
+                            <div class='errorMessage' id='emailError'></div>
+                        </div>
+    
+                        <div class='firstNameContainer formElement'>
+                            <label for='fname'>First Name:</label>
+                            <input id='fname' name='fname'>
+                            <div class='errorMessage' id='fnameError'></div>
+                        </div>
+    
+                        <div class='lastNameContainer formElement'>
+                            <label for='lname'>Last Name:</label>
+                            <input id='lname' name='lname'>
+                            <div class='errorMessage' id='lnameError'></div>
+                        </div>
+    
+                        <div class='submitButtonContainer formElement'>
+                            <input type='submit'>
+                        </div>
+    
+                    </form>
+                </div>
+
+            <div>
+                <div class='mainImageContainer forBlur'>
+                    <div class='mainImageInfo'>
+                        <div class='mainImageName'>Познакомьтесь с Porsche 911</div>
+                        <div class='mainImageDescription'>
+                            Дизайн 911 вне времени, а язык его дизайна универсален
+                        </div>
+                    </div>
+                </div>
+        
+               <div class='previewCar forBlur'>
+                    <div class='previewCarMainDescription'>Икона в мире полном икон</div>
+
+                    <div class='previewCarImages'>
+                        <div class='previewCarItem'>
+                            <div class='previewCarImage imgCarrera1'></div>
+                            <div class='previewCarTitle'>Стандартный интерьер</div>
+                            <div class='previewCarDescription'>Маленькие детали в интерьере выделяют этот автомобиль. Центральный аналоговый тахометр также выполнен в стиле ретро.
+                            </div>
+                        </div>
+
+                        <div class='previewCarItem'>
+                            <div class='previewCarImage imgCarrera2'></div>
+                            <div class='previewCarTitle'>Капот</div>
+                            <div class='previewCarDescription'>Капот с характерными динамичными профилями углублений и прямым наклоном к передней панели является отсылкой к более
+                            ранним моделям 911.</div>
+                        </div>
+
+                        <div class='previewCarItem'>
+                            <div class='previewCarImage imgCarrera3'></div>
+                            <div class='previewCarTitle'>Bose® & Burmester®</div>
+                            <div class='previewCarDescription'>Дорога, пожалуй, последнее место в мире, где еще можно спокойно слушать музыку. Таким образом, это достаточная причина,
+                            чтобы повысить уровень удовольствия, как у Porsche.</div>
+                        </div>
+
+
+                    </div>
+                </div>
+
+                <div class='carItems forBlur'>
+                    <div class='carItem'>
+                        <div class='carItemImage imgCarrera4'></div>
+                        <div class='carItemInfo'>
+                            <div class='carItemTitle'>ДНК дизайна</div>
+                            <div class='carItemDescription'>Типично для 911: длинный плоский капот, круто наклоненное лобовое стекло и
+                                плавно спускающаяся к задней части линия
+                                крыши. Крылья имеют более четкую форму, задняя часть мощная и четко подчеркивает горизонталь.</div>
+                        </div>
+                    </div>
+                
+                    <div class='carItem'>
+                        <div class='carItemImage imgCarrera5'></div>
+                        <div class='carItemInfo'>
+                            <div class='carItemTitle'>Световая полоса</div>
+                            <div class='carItemDescription'>Бесшовная светодиодная полоса между трехмерными светодиодными задними
+                                фонарями характеризует внешний вид всех моделей
+                                911. И делает их безошибочными даже ночью.</div>
+                        </div>
+                    </div>
+                
+                    <div class='carItem'>
+                        <div class='carItemImage imgCarrera6'></div>
+                        <div class='carItemInfo'>
+                            <div class='carItemTitle'>Интерьер</div>
+                            <div class='carItemDescription'> Интерьер столь же особенный, как и внешний вид, с материалами,
+                                напоминающими 1960-е и начало 1970-х годов, включая
+                                центральные части сидений и дверные панели с тканевой обивкой Pepita.
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+
+                <div class='mySwiper forBlur'>
+                    <div class='swiper'>
+                        <div class='swiper-wrapper'>
+                        <div class='swiper-slide'>
+                            <div class='carItemImageSwiper imgCarrera4'></div>
+                            <div class='carItemInfoSwiper'>
+                                <div class='carItemTitleSwiper'>ДНК дизайна</div>
+                                <div class='carItemDescriptionSwiper'>Типично для 911: длинный плоский капот, круто наклоненное
+                                    лобовое стекло и плавно
+                                    спускающаяся к задней части линия
+                                    крыши. Крылья имеют более четкую форму, задняя часть мощная и четко подчеркивает горизонталь.
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class='swiper-slide'>
+                            <div class='carItemImageSwiper imgCarrera5'></div>
+                            <div class='carItemInfoSwiper'>
+                                <div class='carItemTitleSwiper'>Световая полоса</div>
+                                <div class='carItemDescriptionSwiper'>Бесшовная светодиодная полоса между трехмерными светодиодными
+                                    задними фонарями
+                                    характеризует внешний вид всех моделей
+                                    911. И делает их безошибочными даже ночью.</div>
+                            </div>
+                        </div>
+            
+                        <div class='swiper-slide'>
+                            <div class='carItemImageSwiper imgCarrera6'></div>
+                                <div class='carItemInfoSwiper'>
+                                    <div class='carItemTitleSwiper'>Интерьер</div>
+                                    <div class='carItemDescriptionSwiper'> Интерьер столь же особенный, как и внешний вид, с
+                                        материалами, напоминающими 1960-е
+                                        и начало 1970-х годов, включая
+                                        центральные части сидений и дверные панели с тканевой обивкой Pepita.
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class='swiper-pagination'></div>
+                    </div>
+            </div>
+        </main>
+        
+        <footer class='forBlur'>
+            <div>
+                <div class='footerTags'>
+                    <div class='footerRow'>
+                        <a href='./carreraPage.html'>
+                            <div class='footerTag'>Porsche 911</div>
+                        </a>
+        
+                        <a href='./cayennePage.html'>
+                            <div class='footerTag'>Porsche Cayenne</div>
+                        </a>
+        
+                        <a href='./panameraPage.html'>
+                            <div class='footerTag'>Porsche Panamera</div>
+                        </a>
+                    </div>
+                    <div class='footerLogo'>@2024 TheCarVault</div>
+                </div>
+            </div>
+        </footer>
+    </div>
+</body>
+    <script>
+        var swiper = new Swiper('.swiper', {
+            navigation: {
+                nextEl: '.swiper-button-next',
+                prevEl: '.swiper-button-prev',
+            },
+            pagination: {
+                el: '.swiper-pagination',
+            },
+            mousewheel: true,
+            keyboard: true,
+        });
+    </script>
+
+    <script src='../script.js'></script>
+</html>

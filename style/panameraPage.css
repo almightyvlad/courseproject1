@@ -1,0 +1,348 @@
+.mySwiper {
+    display: none;
+    height: 400px;
+}
+
+.swiper {
+    width: 342px;
+    height: 450px;
+}
+
+.swiper-slide {
+    display: flex;
+    flex-direction: column;
+}
+
+.swiper-wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.mainImageContainer {
+    background-image: url('../panameraPageImages/panameramain.jpeg');
+}
+
+.mainImageDescription {
+    text-align: center;
+    font-size: 16px;
+    font-weight: 100;
+    background: none;
+}
+
+.mainImageName {
+    padding: 30px 0 8px;
+}
+
+.previewCar {
+    justify-content: space-between;
+}
+
+.previewCarMainDescription {
+    font-size: 22px;
+    font-size: bold;
+    margin: 0 0 16px;
+}
+
+.previewCarImages {
+    display: flex;
+}
+
+.previewCarItem {
+    width: 301px;
+    height: 475px;
+    margin-right: 24px;
+}
+
+.previewCarImage {
+    width: 301px;
+    height: 301px;
+    border-radius: 12px;
+    background-size: cover;
+    background-position: center;
+    transition: all 0.2s ease-in-out;
+}
+
+.previewCarImage:hover {
+    transform: scale(1.05);
+}
+
+.previewCarTitle {
+    margin: 10px 0 5px;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.previewCarDescription {
+    color: #94adc7;
+    font-size: 14px;
+    font-weight: 100;
+}
+
+.imgPanamera1 {
+    background-image: url('../panameraPageImages/panamerainteroir.jpeg')
+}
+
+.imgPanamera2 {
+    background-image: url('../panameraPageImages/panameraseats2.jpeg')
+}
+
+.imgPanamera3 {
+    background-image: url('../panameraPageImages/panamerainterior1.jpeg')
+}
+
+
+.imgPanamera4 {
+    background-image: url('../panameraPageImages/panamerataillights.jpeg')
+}
+
+.imgPanamera5 {
+    background-image: url('../panameraPageImages/panameratransmission.jpeg')
+}
+
+.imgPanamera6 {
+    background-image: url('../panameraPageImages/panameramultimedia.jpeg')
+}
+
+.carItems {
+    display: flex;
+    flex-direction: column;
+}
+
+.carItem {
+    display: flex;
+}
+
+.carItemImage {
+    width: 400px;
+    height: 244px;
+    border-radius: 12px;
+    background-size: cover;
+    background-position: center;
+    margin: 40px 32px 40px 0;
+    transition: all 0.2s ease-in-out;
+}
+
+.carItemImage:hover {
+    transform: scale(1.1);
+}
+
+.carItemInfo {
+    width: 496px;
+    height: 96px;
+    margin: 40px 0;
+}
+
+.carItemTitle {
+    font-size: 48px;
+    font-weight: bold;
+}
+
+.carItemDescription {
+    font-size: 16px;
+    font-weight: 200;
+    margin: 8px auto;
+}
+
+.carItemInfoSwiper {
+    width: 342px;
+    height: 96px;
+    margin: 0px;
+}
+
+.carItemTitleSwiper {
+    font-size: 28px;
+    padding: 10px 0 0 0;
+}
+
+.carItemDescriptionSwiper {
+    font-size: 14px;
+    padding: 10px 0 0 0;
+}
+
+.carItemImageSwiper {
+    width: 380px;
+    height: 280px;
+    background-size: cover;
+    background-position: center;
+}
+
+@media screen and (max-width: 768px) {
+    .carItems {
+        display: none;
+    }
+
+    .mySwiper {
+        display: block;
+        height: 400px;
+    }
+
+    .swiper {
+        width: 342px;
+        height: 540px;
+    }
+
+    .swiper-slide {
+        display: flex;
+    }
+
+
+    .mainImageContainer {
+        height: 300px;
+    }
+
+    .mainImageName {
+        font-size: 18px;
+        padding: 5px 0 10px;
+    }
+
+    .mainImageDescription {
+        width: 320px;
+        font-size: 12px;
+        padding: 5px 0;
+        margin: 0 auto;
+    }
+
+    .previewCar {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .previewCarImages {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .previewCarItem {
+        height: 420px;
+    }
+
+    .previewCarImage {
+        width: 342px;
+        height: 300px;
+    }
+
+    .previewCarPrice {
+        font-size: 12px;
+        margin: 0;
+    }
+
+    .carsInfo {
+        display: none;
+    }
+
+    .previewCarMainDescription {
+        font-size: 16px;
+    }
+
+    footer {
+        margin: 180px 0 0 0;
+    }
+
+}
+
+@media screen and (min-width: 768px) and (max-width: 998px) {
+    .carItems {
+        display: none;
+    }
+
+    .mySwiper {
+        display: block;
+        width: 670px;
+        height: 280px;
+    }
+
+    .swiper {
+        width: 670px;
+        height: 450px;
+    }
+
+    .swiper-slide {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .swiper-wrapper {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .mainImageContainer {
+        height: 300px;
+    }
+
+    .mainImageName {
+        font-size: 28px;
+        padding: 5px 0 10px;
+    }
+
+    .mainImageDescription {
+        width: 370px;
+        font-size: 14px;
+        padding: 5px 0;
+        margin: 0 auto;
+    }
+
+    .previewCar {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .previewCarImages {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .previewCarItem {
+        width: 670px;
+        height: 400px;
+    }
+
+    .previewCarImage {
+        width: 670px;
+        height: 300px;
+    }
+
+    .previewCarPrice {
+        font-size: 12px;
+        margin: 0;
+    }
+
+    .carsInfo {
+        display: none;
+    }
+
+    .previewCarMainDescription {
+        font-size: 16px;
+    }
+
+    footer {
+        margin: 200px 0 0 0;
+    }
+
+    .carItemSwiper {
+        width: 670px;
+    }
+
+    .carItemImageSwiper {
+        width: 670px;
+    }
+
+    .carItemInfoSwiper {
+        width: 670px;
+        height: 96px;
+        margin: 0px;
+    }
+
+    .carItemTitleSwiper {
+        font-size: 28px;
+    }
+
+    .carItemDescriptionSwiper {
+        width: 670px;
+        font-size: 14px;
+    }
+
+}
+
+
+@media screen and (min-width: 998px) {}

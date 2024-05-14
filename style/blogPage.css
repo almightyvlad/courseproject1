@@ -1,0 +1,302 @@
+.blogContainer {
+    width: 960px;
+    margin: 40px 0;
+}
+
+.blogTitle {
+    font-size: 42px;
+    font-weight: 600;
+}
+
+.blogElementsContainer {
+    margin: 20px 0;
+}
+
+.blogElement {
+    display: flex;
+    border: 1px solid #fff;
+    border-radius: 12px;
+    margin: 20px 0;
+    padding: 20px;
+}
+
+.blogElementImage {
+    width: 300px;
+    height: 220px;
+    background-size: cover;
+    background-position: center;
+}
+
+.blogElementInfo {
+    width: 600px;
+    height: 200px;
+    margin: 10px;
+}
+
+.blogElementTitle {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.blogElementDescription {
+    font-weight: 400;
+    height: 120px;
+    margin-top: 10px;
+}
+
+.blogElementButton {
+    transition: all 0.2s ease-in-out;
+}
+
+.blogElementButton:hover {
+    opacity: 0.5;
+    cursor: pointer;
+}
+
+.blog1 {
+    background-image: url('../blogPageImages/blog1.jpeg');
+}
+
+.blog2 {
+    background-image: url('../blogPageImages/blog2.jpeg');
+}
+
+.blog3 {
+    background-image: url('../blogPageImages/blog3.jpeg');
+}
+
+.commentsContainer {
+
+}
+
+.commentsTitle {
+    font-size: 28px;
+    margin: 40px 0;
+}
+
+.comment {
+    display: flex;
+    border: 1px solid #fff;
+    border-radius: 12px;
+    margin: 20px 0 0 0;
+    padding: 10px;
+}
+
+.userImage {
+    width: 45px;
+    height: 45px;
+}
+
+.userInfo {
+    margin: 0 0 0 10px;
+}
+
+.username {
+    font-size: 14px;
+}
+
+.commentСontent {
+    padding: 5px 0;
+}
+
+.commentInputContainer {
+    display: none;
+    align-items: center;
+    width: 100%;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.commentInput {
+    width: 100%;
+    background-color: #000;
+    border: none;
+    border-radius: 8px;
+    padding: 15px;
+    font-size: 16px;
+    color: #fff;
+    box-sizing: border-box;
+}
+
+.commentInput::placeholder {
+    color: #ccc;
+}
+
+.commentButton {
+    font-size: 24px;
+    margin-left: 10px;
+}
+
+@media screen and (max-width: 768px) {
+    .blogContainer {
+        width: 320px;
+        margin: 20px 0;
+    }
+
+    .blogTitle {
+        font-size: 32px;
+    }
+
+    .blogElement {
+        display: flex;
+        flex-direction: column;
+        padding: 30px;
+    }
+
+    .blogElementImage {
+        width: 100%;
+    }
+
+    .blogElementInfo {
+        width: 250px;
+    }
+
+    .blogElementTitle {
+        font-size: 14px;
+        font-weight: 600;
+    }
+
+    .blogElementDescription {
+        font-weight: 100;
+        font-size: 14px;
+        height: 140px;
+
+    }
+
+    .commentsTitle {
+        font-size: 24px;
+        margin: 40px 0;
+    }
+
+    .comment {
+        margin: 20px 0 0 0;
+        padding: 10px;
+    }
+
+    .userImage {
+        width: 40px;
+        height: 40px;
+    }
+    
+    .userImage svg {
+        width: 40px;
+        height: 40px;
+    }
+
+    .username {
+        font-size: 12px;
+    }
+
+    .commentСontent {
+        padding: 5px 0;
+        font-size: 11px;
+    }
+
+    .commentInputContainer {
+        padding: 15px;
+    }
+
+    .commentInput {
+        width: 100%;
+        background-color: #000;
+        border: none;
+        border-radius: 8px;
+        padding: 15px;
+        font-size: 12px;
+        color: #fff;
+        box-sizing: border-box;
+    }
+
+    .commentButton {
+        font-size: 22px;
+    }
+
+
+}
+
+@media screen and (min-width: 768px) and (max-width: 998px) {
+    .blogContainer {
+        width: 670px;
+        margin: 20px 0;
+    }
+
+    .blogTitle {
+        font-size: 38px;
+    }
+
+    .blogElement {
+        margin: 20px 0;
+        padding: 30px;
+    }
+
+    .blogElementInfo {
+        width: 600px;
+        height: 120px;
+    }
+
+
+    .blogElementTitle {
+        font-size: 16px;
+        font-weight: 600;
+    }
+
+    .blogElementDescription {
+        font-weight: 100;
+        font-size: 14px;
+        height: 80px;
+    }
+
+    .commentsTitle {
+        font-size: 24px;
+        margin: 40px 0;
+    }
+
+    .comment {
+        margin: 20px 0 0 0;
+        padding: 10px;
+    }
+
+    .userImage {
+        width: 40px;
+        height: 40px;
+    }
+
+    .userImage svg {
+        width: 40px;
+        height: 40px;
+    }
+
+    .username {
+        font-size: 12px;
+    }
+
+    .commentСontent {
+        padding: 5px 0;
+        font-size: 11px;
+    }
+
+    .commentInputContainer {
+        padding: 15px;
+    }
+
+    .commentInput {
+        width: 100%;
+        background-color: #000;
+        border: none;
+        border-radius: 8px;
+        padding: 15px;
+        font-size: 12px;
+        color: #fff;
+        box-sizing: border-box;
+    }
+
+    .commentButton {
+        font-size: 22px;
+    }
+
+}
+
+
+@media screen and (min-width: 998px) {}

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data>
+    <car>
+        <name>Porsche 911 Carrera</name>
+        <images>
+            <image>imgCarrera1</image>
+            <image>imgCarrera2</image>
+            <image>imgCarrera3</image>
+        </images>
+        <price>$120,000</price>
+        <additional_info>
+            <description>Форма 911 Carrera безошибочно узнаваема благодаря легендарной линии силуэта.</description>
+            <button href='./carreraPage.html'>Посмотреть детали</button>
+            <image>imgCarrera4</image>
+        </additional_info>
+    </car>
+    <car>
+        <name>Porsche Cayenne</name>
+        <images>
+            <image>imgCayenne1</image>
+            <image>imgCayenne2</image>
+            <image>imgCayenne3</image>
+        </images>
+        <price>$110,000</price>
+        <additional_info>
+            <description>Модели Cayenne привлекают внимание своим спортивным и элегантным внешним видом.</description>
+            <button href='./cayennePage.html'>Посмотреть детали</button>
+            <image>imgCayenne4</image>
+        </additional_info>
+    </car>
+    <car>
+        <name>Porsche Panamera</name>
+        <images>
+            <image>imgPanamera1</image>
+            <image>imgPanamera2</image>
+            <image>imgPanamera3</image>
+        </images>
+        <price>$100,000</price>
+        <additional_info>
+            <description>Спортивный, обтекаемый, с четкими контурами и мощными пропорциями.</description>
+            <button href='./panameraPage.html'>Посмотреть детали</button>
+            <image>imgPanamera4</image>
+        </additional_info>
+    </car>
+</data>

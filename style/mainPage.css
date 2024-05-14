@@ -1,0 +1,343 @@
+.mySwiper {
+    display: none;
+    width: 600px;
+    height: 200px;
+}
+
+.swiper {
+    display: flex;
+    height: 150px;
+}
+
+.swiper-slide {
+    display: flex;
+    justify-content: center;
+}
+
+.mainImageButton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 123px;
+    height: 48px;
+    margin: 30px auto;
+    border-radius: 12px;
+    background: #1a80e5;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.mainImageName {
+    padding: 30px 0 15px;
+}
+
+.mainImageDescription {
+    width: 577px;
+    font-size: 16px;
+    font-weight: 100;
+    background: none;
+    margin: 0 auto;
+    text-align: center;
+    padding: 5px 0;
+}
+
+.mainImageContainer {
+    background-image: url('../mainPageImages/porsche911.jpeg');
+}
+
+.previewCarName {
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.previewCarImages {
+    display: flex;
+    justify-content: space-between;
+    margin: 24px 0 0 0;
+}
+
+.previewCarImage {
+    display: flex;
+    width: 300px;
+    height: 170px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 12px;
+    transition: all 0.2s ease-in-out;
+}
+
+.previewCarImage:hover {
+    transform: scale(1.1);
+}
+
+.previewCarPrice {
+    font-size: 16px;
+    font-weight: 400;
+    margin: 12px 0;
+}
+
+.addInfoContainer {
+    display: flex;
+    justify-content: space-between;
+    margin: 32px 0;
+}
+
+.addInfoName {
+    font-weight: 800;
+}
+
+.addInfoDescription {
+    color: #9eabb8;
+    font-size: 14px;
+    font-weight: 300;
+    margin: 4px 0;
+}
+
+.addInfoButton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 30px;
+    font-weight: 400;
+    border-radius: 12px;
+    background: #293038;
+    font-size: 14px;
+    margin: 16px 0;
+    transition: all 0.2s ease-in-out;
+    opacity: 0.5;
+}
+
+.addInfoButton:hover {
+    opacity: 1;
+}
+
+.addImage {
+    display: flex;
+    width: 300px;
+    height: 170px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 12px;
+    transition: all 0.2s ease-in-out;
+}
+
+.addImage:hover {
+    transform: scale(1.1);
+}
+
+.imgCarrera1 {
+    background-image: url('../mainPageImages/porsche911.1.jpeg');
+}
+
+.imgCarrera2 {
+    background-image: url('../mainPageImages/porsche911.2.jpeg');
+}
+
+.imgCarrera3 {
+    background-image: url('../mainPageImages/porsche911.4.jpeg');
+}
+
+.imgCarrera4 {
+    background-image: url('../mainPageImages/porsche911.3.jpeg');
+}
+
+.imgCayenne1 {
+    background-image: url('../mainPageImages/cayenne.1.jpeg');
+}
+
+.imgCayenne2 {
+    background-image: url('../mainPageImages/cayenne.2.jpeg');
+}
+
+.imgCayenne3 {
+    background-image: url('../mainPageImages/cayenne.3.jpeg');
+}
+
+.imgCayenne4 {
+    background-image: url('../mainPageImages/cayenne.4.jpeg');
+}
+
+.imgPanamera1 {
+    background-image: url('../mainPageImages/panamera.1.jpeg')
+}
+
+.imgPanamera2 {
+    background-image: url('../mainPageImages/panamera.2.jpeg')
+}
+
+.imgPanamera3 {
+    background-image: url('../mainPageImages/panamera.3.jpeg')
+}
+
+.imgPanamera4 {
+    background-image: url('../mainPageImages/panamera.4.jpeg')
+}
+
+@media screen and (max-width: 768px) {
+    .mySwiper {
+        display: block;
+        width: 342px;
+        height: 200px;
+    }
+
+    .swiper {
+        display: flex;
+        height: 150px;
+    }
+
+    .swiper-slide {
+        display: flex;
+        justify-content: center;
+    }
+
+    .previewCarName {
+        font-size: 14px;
+        margin: 0 0 10px;
+    }
+    .previewCarImage {
+        width: 670px;
+        height: 120px;
+    }
+    .previewCarPrice {
+        font-size: 12px;
+        margin: 0;
+    }
+    .carsInfo {
+        display: none;
+    }
+    .mainImageButton {
+        width: 85px;
+        height: 34px;
+        margin: 10px auto;
+        font-size: 12px;
+    }
+    .mainImageName {
+        padding: 5px 0 10px;
+    }
+
+    .mainImageDescription {
+        width: 300px;
+        font-size: 10px;
+    }
+
+    .addInfoContainer {
+        display: flex;
+        flex-direction: column;
+        width: 342px;
+    }
+
+    .addImage {
+        width: 340px;
+        height: 150px;
+    }
+
+    .addInfo {
+        width: 280px;
+    }
+
+    .addInfoName {
+        font-size: 14px;
+        margin: 10px 0;
+    }
+    .addInfoDescription {
+        font-size: 12px;
+    }
+
+    .addInfoButton {
+        width: 140px;
+        font-size: 12px;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 998px) {
+    .mySwiper {
+        display: block;
+        width: 670px;
+        height: 320px;
+    }
+
+    .swiper {
+        height: 280px;
+    }
+
+    .swiper-slide {
+        display: flex;
+        justify-content: center;
+    }
+    .previewCarName {
+        font-size: 16px;
+        margin: 0 0 10px;
+    }
+
+    .previewCarImage {
+        width: 670px;
+        height: 240px;
+    }
+
+    .previewCarPrice {
+        font-size: 14px;
+    }
+
+    .carsInfo {
+        display: none;
+    }
+
+    .mainImageButton {
+        width: 85px;
+        height: 34px;
+        margin: 10px auto;
+        font-size: 12px;
+    }
+
+    .mainImageName {
+        padding: 10px 0 15px;
+    }
+
+
+    .mainImageDescription {
+        width: 412px;
+        font-size: 16px;
+        padding: 5px 0;
+    }
+
+
+    .addInfoContainer {
+        display: flex;
+        flex-direction: column;
+        width: 342px;
+    }
+
+    .addImage {
+        width: 670px;
+        height: 240px;
+    }
+
+    .addInfo {
+        width: 340px;
+    }
+
+    .addInfoName {
+        font-size: 16px;
+        margin: 10px 0;
+    }
+
+    .addInfoDescription {
+        font-size: 12px;
+    }
+
+    .addInfoButton {
+        width: 140px;
+        font-size: 12px;
+    }
+ 
+}
+
+
+@media screen and (min-width: 998px) {
+    .mobile {
+        display: none;
+    }
+}
+
